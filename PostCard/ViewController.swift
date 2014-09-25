@@ -38,6 +38,7 @@ class ViewController: UIViewController {
         enterMessageTextField.resignFirstResponder()
         messageLabel.textColor = UIColor.redColor()
         messageButton.setTitle("Message Sent", forState: UIControlState.Normal)
+        println("This is test")
         
         
         
